@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Spacecraft Evolution</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h1>Spacecraft Evolution</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div id="thumbnails">
+					<img src="img/dragon.jpg" id="dragon" width="19.375%" height="19.5%" alt="A Crew Dragon capsule"
+						onmousedown="selectImage(this)" onmouseover="hoverImage(this);" />
+					<img src="img/falcon.jpg" id="falcon" width="19.375%" height="19.5%" alt="Falcon-9"
+						onmousedown="selectImage(this)" onmouseover="hoverImage(this);" />
+					<img src="img/shuttle.jpg" id="shuttle" width="19.375%" height="19.5%" alt="Space Shuttle Atlantis"
+						onmousedown="selectImage(this)" onmouseover="hoverImage(this);" />
+					<img src="img/soyuz.jpg" id="soyuz" width="19.375%" height="19.5%" alt="A Soyuz Spacecraft"
+						onmousedown="selectImage(this)" onmouseover="hoverImage(this);" />
+					<img src="img/spacex.jpg" id="spacex" width="19.375%" height="19.5%" alt="Space X"
+						onmousedown="selectImage(this)" onmouseover="hoverImage(this);" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div id="mainImage">
+					<img id="largeImage" src="img/dragon.jpg" width="100%" height="100%" alt="dragon">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="caption">
+					<p id="caption"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/image-gallery.js"></script>
+</body>
+
+</html>
